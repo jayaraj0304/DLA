@@ -1,0 +1,17 @@
+Quora Question-Pair Similarity Using NLP/ML
+Viva Answers (2 Marks Each)
+
+1. Why is one question vector alone insufficient for pair similarity?
+One question vector represents only one question. To measure similarity, we must compare both question vectors and identify how similar or different they are.
+
+2. What is vector concatenation?
+Vector concatenation means joining two or more vectors end-to-end to create one longer vector containing their features.
+
+3. What is an absolute difference feature?
+An absolute difference feature is calculated by taking the absolute value of the difference between corresponding values in two vectors: |V1 - V2|. It shows how much the questions differ.
+
+4. What is a sparse representation?
+A sparse representation is a vector or matrix in which most values are zero. TF-IDF often produces sparse vectors because a question contains only a small number of all possible words.
+
+5. What is a pipeline in machine learning?
+A machine-learning pipeline is a sequence of steps used to process data and build a model, such as text cleaning, feature extraction, model training, and evaluation.
